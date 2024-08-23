@@ -1,0 +1,48 @@
+.page-name {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: -webkit-center;
+}
+
+.section-name {
+  font-size: 18px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.complaint-card {
+  box-shadow: 0 0 2px rgb(255 35 35);
+  padding: 25px;
+  border-radius: 10px;
+  margin: 10px 10px 0 10px;
+}
+
+p.complaint-job-name {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+button.delete-btn {
+  background: red;
+  color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.info-btn {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 300px;
+  height: 40px;
+  border-radius: 50px;
+  font-weight: bold;
+}
